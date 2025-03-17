@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/jw.dir/jordanwigner.cc.o CMakeFiles/jw.dir/jw.cc.o -o jw 
