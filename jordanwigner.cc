@@ -50,8 +50,12 @@ Eigen::MatrixXcd jordanwigner::opcreator(int l){
   } 
   }
 
-  else{    
-    tot = Eigen::kroneckerProduct(sigmam,Iden).eval();
+  else{
+    if (l!=hilbert){      
+    tot = Eigen::kroneckerProduct(sigmam,Iden).eval();}
+    else{
+      tot = sigmam;
+    }
   }
 
   return tot;

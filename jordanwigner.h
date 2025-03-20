@@ -5,6 +5,7 @@
 #include <Eigen/Dense>
 #include <complex>
 #include <unsupported/Eigen/KroneckerProduct>
+#include <unsupported/Eigen/MatrixFunctions> 
 
 using Eigen::MatrixXd;
 using namespace std;

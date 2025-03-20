@@ -191,11 +191,20 @@ CMakeFiles/jw.dir/jordanwigner.cc.o: /home/mazi/Desktop/kozukic-/jordanwigner.cc
   /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/misc/Kernel.h \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/misc/RealSvd2x2.h \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/Core \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/Eigenvalues \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/LU \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/util/DisableStupidWarnings.h \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/util/ReenableStupidWarnings.h \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/SparseCore/SparseUtil.h \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/KroneckerProduct \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/MatrixFunctions \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/KroneckerProduct/KroneckerTensorProduct.h \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixLogarithm.h \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixPower.h \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixSquareRoot.h \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/StemFunction.h \
   /home/mazi/Desktop/kozukic-/jordanwigner.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -208,6 +217,7 @@ CMakeFiles/jw.dir/jordanwigner.cc.o: /home/mazi/Desktop/kozukic-/jordanwigner.cc
   /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/algorithmfwd.h \
   /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocated_ptr.h \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/atomic_base.h \
   /usr/include/c++/13/bits/atomic_lockfree_defines.h \
@@ -234,6 +244,7 @@ CMakeFiles/jw.dir/jordanwigner.cc.o: /home/mazi/Desktop/kozukic-/jordanwigner.cc
   /usr/include/c++/13/bits/invoke.h \
   /usr/include/c++/13/bits/ios_base.h \
   /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/list.tcc \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
   /usr/include/c++/13/bits/locale_facets.h \
@@ -266,6 +277,7 @@ CMakeFiles/jw.dir/jordanwigner.cc.o: /home/mazi/Desktop/kozukic-/jordanwigner.cc
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_list.h \
   /usr/include/c++/13/bits/stl_pair.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -283,6 +295,7 @@ CMakeFiles/jw.dir/jordanwigner.cc.o: /home/mazi/Desktop/kozukic-/jordanwigner.cc
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/cfloat \
   /usr/include/c++/13/climits \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
@@ -311,6 +324,7 @@ CMakeFiles/jw.dir/jordanwigner.cc.o: /home/mazi/Desktop/kozukic-/jordanwigner.cc
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
   /usr/include/c++/13/limits \
+  /usr/include/c++/13/list \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
@@ -455,6 +469,7 @@ CMakeFiles/jw.dir/jordanwigner.cc.o: /home/mazi/Desktop/kozukic-/jordanwigner.cc
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
@@ -654,11 +669,20 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/misc/Kernel.h \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/misc/RealSvd2x2.h \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/Core \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/Eigenvalues \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/LU \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/util/DisableStupidWarnings.h \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/util/ReenableStupidWarnings.h \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/SparseCore/SparseUtil.h \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/KroneckerProduct \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/MatrixFunctions \
   /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/KroneckerProduct/KroneckerTensorProduct.h \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixLogarithm.h \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixPower.h \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixSquareRoot.h \
+  /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/StemFunction.h \
   /home/mazi/Desktop/kozukic-/jordanwigner.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -671,6 +695,7 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/algorithmfwd.h \
   /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocated_ptr.h \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/atomic_base.h \
   /usr/include/c++/13/bits/atomic_lockfree_defines.h \
@@ -680,6 +705,7 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /usr/include/c++/13/bits/basic_string.tcc \
   /usr/include/c++/13/bits/char_traits.h \
   /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/codecvt.h \
   /usr/include/c++/13/bits/concept_check.h \
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
@@ -689,6 +715,7 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fstream.tcc \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -697,10 +724,14 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /usr/include/c++/13/bits/invoke.h \
   /usr/include/c++/13/bits/ios_base.h \
   /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/list.tcc \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
   /usr/include/c++/13/bits/localefwd.h \
   /usr/include/c++/13/bits/memory_resource.h \
   /usr/include/c++/13/bits/memoryfwd.h \
@@ -713,6 +744,7 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
@@ -729,6 +761,7 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_list.h \
   /usr/include/c++/13/bits/stl_pair.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -746,6 +779,7 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/cfloat \
   /usr/include/c++/13/climits \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
@@ -756,6 +790,7 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
   /usr/include/c++/13/cstring \
+  /usr/include/c++/13/ctime \
   /usr/include/c++/13/cwchar \
   /usr/include/c++/13/cwctype \
   /usr/include/c++/13/debug/assertions.h \
@@ -767,13 +802,17 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/fstream \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
   /usr/include/c++/13/limits \
+  /usr/include/c++/13/list \
+  /usr/include/c++/13/locale \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
@@ -808,6 +847,7 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/errno.h \
   /usr/include/linux/limits.h \
@@ -901,8 +941,10 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
@@ -910,7 +952,9 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -918,6 +962,7 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
@@ -927,6 +972,24 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h
 
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
+
+/usr/include/libintl.h:
+
+/usr/include/c++/13/ctime:
+
+/usr/include/c++/13/bits/locale_facets_nonio.tcc:
+
+/usr/include/c++/13/bits/locale_facets_nonio.h:
+
+/usr/include/c++/13/bits/fstream.tcc:
+
+/usr/include/c++/13/bits/codecvt.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
@@ -947,8 +1010,6 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
 
@@ -1054,11 +1115,11 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 
 /usr/include/c++/13/vector:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h:
+
 /usr/include/c++/13/typeinfo:
 
 /usr/include/c++/13/tr1/special_function_util.h:
-
-/usr/include/c++/13/tr1/poly_laguerre.tcc:
 
 /usr/include/c++/13/tr1/poly_hermite.tcc:
 
@@ -1105,6 +1166,8 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 /usr/include/c++/13/tr1/bessel_function.tcc:
 
 /usr/include/c++/13/initializer_list:
+
+/usr/include/c++/13/list:
 
 /usr/include/c++/13/ext/alloc_traits.h:
 
@@ -1160,6 +1223,28 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 
 /usr/include/c++/13/bits/stl_pair.h:
 
+/usr/include/stdio.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/c++/13/ext/numeric_traits.h:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
+/usr/include/c++/13/bits/stl_heap.h:
+
+/usr/include/c++/13/bits/stl_function.h:
+
+/usr/include/c++/13/bits/stl_construct.h:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
+/usr/include/c++/13/bits/stl_algobase.h:
+
+/usr/include/c++/13/bits/stl_algo.h:
+
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/util/Constants.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/StlIterators.h:
@@ -1186,6 +1271,8 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 
 /usr/include/c++/13/bits/std_abs.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
+
 /usr/include/ctype.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
@@ -1205,8 +1292,6 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/util/Macros.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/arch/Default/TypeCasting.h:
-
-/home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
 
 /usr/include/c++/13/bits/refwrap.h:
 
@@ -1235,8 +1320,6 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 /usr/include/c++/13/bits/vector.tcc:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/Transpose.h:
-
-/usr/include/c++/13/bit:
 
 /usr/include/c++/13/bits/stl_tempbuf.h:
 
@@ -1286,6 +1369,8 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/functors/UnaryFunctors.h:
 
+/usr/include/c++/13/fstream:
+
 /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/Fuzzy.h:
@@ -1300,21 +1385,19 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/PlainObjectBase.h:
 
+/usr/include/c++/13/locale:
+
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/products/SelfadjointProduct.h:
 
 /usr/include/c++/13/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/c++/13/bits/stl_iterator.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/13/ext/atomicity.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/arch/Default/Half.h:
+
+/usr/include/c++/13/bits/quoted_string.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/PermutationMatrix.h:
 
@@ -1336,6 +1419,8 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/StableNorm.h:
 
+/usr/include/c++/13/iomanip:
+
 /usr/include/strings.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/NestByValue.h:
@@ -1356,17 +1441,21 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 
 /usr/include/c++/13/bits/new_allocator.h:
 
+/usr/include/c++/13/bit:
+
+/usr/include/c++/13/bits/allocated_ptr.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/Eigenvalues:
-
-/usr/include/c++/13/bits/stl_algobase.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/Dot.h:
 
 /usr/include/c++/13/bits/postypes.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Geometry/RotationBase.h:
+
+/usr/include/c++/13/bits/stl_list.h:
 
 /usr/include/c++/13/bits/erase_if.h:
 
@@ -1415,10 +1504,6 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/functors/StlFunctors.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/SVD:
-
-/usr/include/stdio.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/Dense:
 
@@ -1480,6 +1565,10 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/plugins/ReshapedMethods.h:
 
+/home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
+
+/home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixSquareRoot.h:
+
 /usr/include/c++/13/bits/invoke.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/ArrayWrapper.h:
@@ -1513,6 +1602,10 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 /usr/include/c++/13/ext/string_conversions.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/CoreIterators.h:
+
+/home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/MatrixFunctions:
+
+/home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixPower.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
@@ -1580,6 +1673,8 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/util/MKL_support.h:
 
+/home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h:
+
 /usr/include/c++/13/climits:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/util/Memory.h:
@@ -1593,6 +1688,8 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/util/ReshapedHelper.h:
 
 /usr/include/c++/13/bits/exception_ptr.h:
+
+/usr/include/c++/13/bits/locale_conv.h:
 
 /usr/include/c++/13/bits/istream.tcc:
 
@@ -1686,6 +1783,8 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Jacobi/Jacobi.h:
 
+/home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixLogarithm.h:
+
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/Eigen/src/Core/Diagonal.h:
@@ -1728,6 +1827,18 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 
 /home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/KroneckerProduct:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
+
+/home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/13/bits/algorithmfwd.h:
+
+/usr/include/c++/13/tr1/poly_laguerre.tcc:
+
+/home/mazi/Desktop/eigen0/eigen-3.4.0/unsupported/Eigen/src/MatrixFunctions/StemFunction.h:
+
 /home/mazi/Desktop/kozukic-/jordanwigner.h:
 
 /usr/include/c++/13/bits/stl_iterator_base_funcs.h:
@@ -1736,10 +1847,6 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 
 /usr/include/c++/13/atomic:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/c++/13/bits/algorithmfwd.h:
-
 /usr/include/c++/13/bits/alloc_traits.h:
 
 /usr/include/c++/13/bits/concept_check.h:
@@ -1747,8 +1854,6 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 /usr/include/c++/13/unordered_map:
 
 /usr/include/c++/13/bits/allocator.h:
-
-/usr/include/c++/13/bits/stl_bvector.h:
 
 /usr/include/c++/13/bits/basic_ios.h:
 
@@ -1810,6 +1915,10 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 
 /usr/include/c++/13/tuple:
 
+/usr/include/c++/13/cfloat:
+
+/usr/include/c++/13/bits/list.tcc:
+
 /usr/include/c++/13/bits/nested_exception.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
@@ -1829,11 +1938,3 @@ CMakeFiles/jw.dir/jw.cc.o: /home/mazi/Desktop/kozukic-/jw.cc \
 /usr/include/c++/13/bits/range_access.h:
 
 /usr/include/c++/13/bits/sstream.tcc:
-
-/usr/include/c++/13/bits/stl_algo.h:
-
-/usr/include/c++/13/bits/stl_construct.h:
-
-/usr/include/c++/13/bits/stl_function.h:
-
-/usr/include/c++/13/bits/stl_heap.h:
