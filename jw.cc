@@ -48,15 +48,15 @@ int main()
   double t0 = 0;
   double dt = 0.2;
 
-  for(int i =0; i <4;i++){
+  for(int i =0; i <100;i++){
     
     //cout<<t0<<endl;
 
     Eigen::MatrixXcd Mat = evol(rho0,H,t0,2);
-    cout<<"la matriz es:"<<endl;
-    cout<<Mat<<endl;
+    //cout<<"la matriz es:"<<endl;
+    //cout<<Mat<<endl;
     
-    outFile<<t0<< "\t"<<Mat(1,1).real()<<endl;
+    outFile<<t0<< "\t"<<Mat(1,0).real()<<endl;
     t0 = t0+dt;
   }
 
@@ -92,7 +92,7 @@ Eigen::MatrixXcd isolatedevol(const Eigen::MatrixXcd & H){
 Eigen::MatrixXcd evol(const Eigen::MatrixXcd &rho0,const Eigen::MatrixXcd & H, double t,int n){
   
   Eigen::MatrixXcd liouville = t*isolatedevol(H);
-  cout<<"la matriz:"<<endl;
+  //cout<<"la matriz:"<<endl;
   //cout<<liouville.exp()<<endl;
   Eigen::MatrixXcd m0 = rho0;
   Eigen::VectorXcd init0 = reshape(m0);
