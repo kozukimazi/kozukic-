@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/QT.dir/jordanwigner.cc.o CMakeFiles/QT.dir/Qtermo.cc.o CMakeFiles/QT.dir/Qtermoex.cc.o -o QT 

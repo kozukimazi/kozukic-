@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/mazi/Desktop/kozukic-/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/jw.dir/all
+all: CMakeFiles/QT.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/jw.dir/clean
+clean: CMakeFiles/QT.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/jw.dir
+# Target rules for target CMakeFiles/QT.dir
 
 # All Build rule for target.
-CMakeFiles/jw.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jw.dir/build.make CMakeFiles/jw.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jw.dir/build.make CMakeFiles/jw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mazi/Desktop/kozukic-/build/CMakeFiles --progress-num=1,2,3 "Built target jw"
-.PHONY : CMakeFiles/jw.dir/all
+CMakeFiles/QT.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mazi/Desktop/kozukic-/build/CMakeFiles --progress-num=1,2,3,4 "Built target QT"
+.PHONY : CMakeFiles/QT.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/jw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/Desktop/kozukic-/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/jw.dir/all
+CMakeFiles/QT.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/Desktop/kozukic-/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QT.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/Desktop/kozukic-/build/CMakeFiles 0
-.PHONY : CMakeFiles/jw.dir/rule
+.PHONY : CMakeFiles/QT.dir/rule
 
 # Convenience name for target.
-jw: CMakeFiles/jw.dir/rule
-.PHONY : jw
+QT: CMakeFiles/QT.dir/rule
+.PHONY : QT
 
 # clean rule for target.
-CMakeFiles/jw.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jw.dir/build.make CMakeFiles/jw.dir/clean
-.PHONY : CMakeFiles/jw.dir/clean
+CMakeFiles/QT.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/clean
+.PHONY : CMakeFiles/QT.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

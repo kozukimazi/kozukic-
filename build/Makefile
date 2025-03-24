@@ -117,24 +117,72 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named jw
+# Target rules for targets named QT
 
 # Build rule for target.
-jw: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 jw
-.PHONY : jw
+QT: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QT
+.PHONY : QT
 
 # fast build rule for target.
-jw/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jw.dir/build.make CMakeFiles/jw.dir/build
-.PHONY : jw/fast
+QT/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/build
+.PHONY : QT/fast
+
+Qtermo.o: Qtermo.cc.o
+.PHONY : Qtermo.o
+
+# target to build an object file
+Qtermo.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/Qtermo.cc.o
+.PHONY : Qtermo.cc.o
+
+Qtermo.i: Qtermo.cc.i
+.PHONY : Qtermo.i
+
+# target to preprocess a source file
+Qtermo.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/Qtermo.cc.i
+.PHONY : Qtermo.cc.i
+
+Qtermo.s: Qtermo.cc.s
+.PHONY : Qtermo.s
+
+# target to generate assembly for a file
+Qtermo.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/Qtermo.cc.s
+.PHONY : Qtermo.cc.s
+
+Qtermoex.o: Qtermoex.cc.o
+.PHONY : Qtermoex.o
+
+# target to build an object file
+Qtermoex.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/Qtermoex.cc.o
+.PHONY : Qtermoex.cc.o
+
+Qtermoex.i: Qtermoex.cc.i
+.PHONY : Qtermoex.i
+
+# target to preprocess a source file
+Qtermoex.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/Qtermoex.cc.i
+.PHONY : Qtermoex.cc.i
+
+Qtermoex.s: Qtermoex.cc.s
+.PHONY : Qtermoex.s
+
+# target to generate assembly for a file
+Qtermoex.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/Qtermoex.cc.s
+.PHONY : Qtermoex.cc.s
 
 jordanwigner.o: jordanwigner.cc.o
 .PHONY : jordanwigner.o
 
 # target to build an object file
 jordanwigner.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jw.dir/build.make CMakeFiles/jw.dir/jordanwigner.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/jordanwigner.cc.o
 .PHONY : jordanwigner.cc.o
 
 jordanwigner.i: jordanwigner.cc.i
@@ -142,7 +190,7 @@ jordanwigner.i: jordanwigner.cc.i
 
 # target to preprocess a source file
 jordanwigner.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jw.dir/build.make CMakeFiles/jw.dir/jordanwigner.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/jordanwigner.cc.i
 .PHONY : jordanwigner.cc.i
 
 jordanwigner.s: jordanwigner.cc.s
@@ -150,32 +198,8 @@ jordanwigner.s: jordanwigner.cc.s
 
 # target to generate assembly for a file
 jordanwigner.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jw.dir/build.make CMakeFiles/jw.dir/jordanwigner.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/jordanwigner.cc.s
 .PHONY : jordanwigner.cc.s
-
-jw.o: jw.cc.o
-.PHONY : jw.o
-
-# target to build an object file
-jw.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jw.dir/build.make CMakeFiles/jw.dir/jw.cc.o
-.PHONY : jw.cc.o
-
-jw.i: jw.cc.i
-.PHONY : jw.i
-
-# target to preprocess a source file
-jw.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jw.dir/build.make CMakeFiles/jw.dir/jw.cc.i
-.PHONY : jw.cc.i
-
-jw.s: jw.cc.s
-.PHONY : jw.s
-
-# target to generate assembly for a file
-jw.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jw.dir/build.make CMakeFiles/jw.dir/jw.cc.s
-.PHONY : jw.cc.s
 
 # Help Target
 help:
@@ -185,13 +209,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... jw"
+	@echo "... QT"
+	@echo "... Qtermo.o"
+	@echo "... Qtermo.i"
+	@echo "... Qtermo.s"
+	@echo "... Qtermoex.o"
+	@echo "... Qtermoex.i"
+	@echo "... Qtermoex.s"
 	@echo "... jordanwigner.o"
 	@echo "... jordanwigner.i"
 	@echo "... jordanwigner.s"
-	@echo "... jw.o"
-	@echo "... jw.i"
-	@echo "... jw.s"
 .PHONY : help
 
 
