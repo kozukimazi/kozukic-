@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/mazi/Desktop/kozukic-/Aplication.cc" "CMakeFiles/QT.dir/Aplication.cc.o" "gcc" "CMakeFiles/QT.dir/Aplication.cc.o.d"
   "/home/mazi/Desktop/kozukic-/Qtermo.cc" "CMakeFiles/QT.dir/Qtermo.cc.o" "gcc" "CMakeFiles/QT.dir/Qtermo.cc.o.d"
-  "/home/mazi/Desktop/kozukic-/Qtermoex.cc" "CMakeFiles/QT.dir/Qtermoex.cc.o" "gcc" "CMakeFiles/QT.dir/Qtermoex.cc.o.d"
   "/home/mazi/Desktop/kozukic-/jordanwigner.cc" "CMakeFiles/QT.dir/jordanwigner.cc.o" "gcc" "CMakeFiles/QT.dir/jordanwigner.cc.o.d"
   )
 

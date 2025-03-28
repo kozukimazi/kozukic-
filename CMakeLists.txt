@@ -5,7 +5,7 @@ project(JordanWigner)
 include_directories(/home/mazi/Desktop/eigen0/eigen-3.4.0)
 
 # Add executable
-add_executable(QT jordanwigner.cc Qtermo.cc Qtermoex.cc)
+add_executable(QT jordanwigner.cc Qtermo.cc Aplication.cc)
 
 #TO remove the file that generate the code
-set_directory_properties(PROPERTIES ADDITIONAL_MAKE_CLEAN_FILES "datosclass.dat")
+set_directory_properties(PROPERTIES ADDITIONAL_MAKE_CLEAN_FILES "datosap.dat")

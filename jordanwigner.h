@@ -10,7 +10,6 @@
 using Eigen::MatrixXd;
 using namespace std;
 
-
 class jordanwigner{
 
     private:

@@ -129,6 +129,30 @@ QT/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/build
 .PHONY : QT/fast
 
+Aplication.o: Aplication.cc.o
+.PHONY : Aplication.o
+
+# target to build an object file
+Aplication.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/Aplication.cc.o
+.PHONY : Aplication.cc.o
+
+Aplication.i: Aplication.cc.i
+.PHONY : Aplication.i
+
+# target to preprocess a source file
+Aplication.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/Aplication.cc.i
+.PHONY : Aplication.cc.i
+
+Aplication.s: Aplication.cc.s
+.PHONY : Aplication.s
+
+# target to generate assembly for a file
+Aplication.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/Aplication.cc.s
+.PHONY : Aplication.cc.s
+
 Qtermo.o: Qtermo.cc.o
 .PHONY : Qtermo.o
 
@@ -152,30 +176,6 @@ Qtermo.s: Qtermo.cc.s
 Qtermo.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/Qtermo.cc.s
 .PHONY : Qtermo.cc.s
-
-Qtermoex.o: Qtermoex.cc.o
-.PHONY : Qtermoex.o
-
-# target to build an object file
-Qtermoex.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/Qtermoex.cc.o
-.PHONY : Qtermoex.cc.o
-
-Qtermoex.i: Qtermoex.cc.i
-.PHONY : Qtermoex.i
-
-# target to preprocess a source file
-Qtermoex.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/Qtermoex.cc.i
-.PHONY : Qtermoex.cc.i
-
-Qtermoex.s: Qtermoex.cc.s
-.PHONY : Qtermoex.s
-
-# target to generate assembly for a file
-Qtermoex.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QT.dir/build.make CMakeFiles/QT.dir/Qtermoex.cc.s
-.PHONY : Qtermoex.cc.s
 
 jordanwigner.o: jordanwigner.cc.o
 .PHONY : jordanwigner.o
@@ -210,12 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... QT"
+	@echo "... Aplication.o"
+	@echo "... Aplication.i"
+	@echo "... Aplication.s"
 	@echo "... Qtermo.o"
 	@echo "... Qtermo.i"
 	@echo "... Qtermo.s"
-	@echo "... Qtermoex.o"
-	@echo "... Qtermoex.i"
-	@echo "... Qtermoex.s"
 	@echo "... jordanwigner.o"
 	@echo "... jordanwigner.i"
 	@echo "... jordanwigner.s"

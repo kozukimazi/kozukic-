@@ -97,32 +97,32 @@ CMakeFiles/QT.dir/Qtermo.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QT.dir/Qtermo.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mazi/Desktop/kozukic-/Qtermo.cc -o CMakeFiles/QT.dir/Qtermo.cc.s
 
-CMakeFiles/QT.dir/Qtermoex.cc.o: CMakeFiles/QT.dir/flags.make
-CMakeFiles/QT.dir/Qtermoex.cc.o: /home/mazi/Desktop/kozukic-/Qtermoex.cc
-CMakeFiles/QT.dir/Qtermoex.cc.o: CMakeFiles/QT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mazi/Desktop/kozukic-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/QT.dir/Qtermoex.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QT.dir/Qtermoex.cc.o -MF CMakeFiles/QT.dir/Qtermoex.cc.o.d -o CMakeFiles/QT.dir/Qtermoex.cc.o -c /home/mazi/Desktop/kozukic-/Qtermoex.cc
+CMakeFiles/QT.dir/Aplication.cc.o: CMakeFiles/QT.dir/flags.make
+CMakeFiles/QT.dir/Aplication.cc.o: /home/mazi/Desktop/kozukic-/Aplication.cc
+CMakeFiles/QT.dir/Aplication.cc.o: CMakeFiles/QT.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mazi/Desktop/kozukic-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/QT.dir/Aplication.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QT.dir/Aplication.cc.o -MF CMakeFiles/QT.dir/Aplication.cc.o.d -o CMakeFiles/QT.dir/Aplication.cc.o -c /home/mazi/Desktop/kozukic-/Aplication.cc
 
-CMakeFiles/QT.dir/Qtermoex.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QT.dir/Qtermoex.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mazi/Desktop/kozukic-/Qtermoex.cc > CMakeFiles/QT.dir/Qtermoex.cc.i
+CMakeFiles/QT.dir/Aplication.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QT.dir/Aplication.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mazi/Desktop/kozukic-/Aplication.cc > CMakeFiles/QT.dir/Aplication.cc.i
 
-CMakeFiles/QT.dir/Qtermoex.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QT.dir/Qtermoex.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mazi/Desktop/kozukic-/Qtermoex.cc -o CMakeFiles/QT.dir/Qtermoex.cc.s
+CMakeFiles/QT.dir/Aplication.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QT.dir/Aplication.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mazi/Desktop/kozukic-/Aplication.cc -o CMakeFiles/QT.dir/Aplication.cc.s
 
 # Object files for target QT
 QT_OBJECTS = \
 "CMakeFiles/QT.dir/jordanwigner.cc.o" \
 "CMakeFiles/QT.dir/Qtermo.cc.o" \
-"CMakeFiles/QT.dir/Qtermoex.cc.o"
+"CMakeFiles/QT.dir/Aplication.cc.o"
 
 # External object files for target QT
 QT_EXTERNAL_OBJECTS =
 
 QT: CMakeFiles/QT.dir/jordanwigner.cc.o
 QT: CMakeFiles/QT.dir/Qtermo.cc.o
-QT: CMakeFiles/QT.dir/Qtermoex.cc.o
+QT: CMakeFiles/QT.dir/Aplication.cc.o
 QT: CMakeFiles/QT.dir/build.make
 QT: CMakeFiles/QT.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mazi/Desktop/kozukic-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable QT"
